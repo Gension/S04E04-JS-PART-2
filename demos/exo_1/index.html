@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <form id="form">
+        <div>
+            <label for="name">Nom</label>
+            <input id="name" type="text">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input id="age" type="text">
+        </div>
+        <div>
+            <label for="likes">Ce que tu aimes</label>
+            <input id="likes" type="text">
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+
+    <div class="answer">
+        <p id="nameResult"></p>
+        <p id="ageResult"></p>
+        <p id="likesResult"></p>
+        <button>Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

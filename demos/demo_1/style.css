@@ -1,0 +1,28 @@
+
+.madiv {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 3em;
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    background: red;
+    border: none;
+}
+
+button:hover{
+    background: darkred;
+}
+button:active {
+    background: purple;
+}
+.truc {
+    
+    background-color: rebeccapurple;
+    color: white;
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
